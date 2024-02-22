@@ -1,0 +1,10 @@
+
+D
+java:S2189	""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8†×Ê»Ø1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8«Âã»Ø1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ı·‡‘øÿÿÿÿ8«Âã»Ø1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ûãÁùùÿÿÿÿ8ùÂ¤ñ×1
+d
+java:S1126"BReplace this if-then-else statement by a single method invocation.(şß¼øÿÿÿÿ8«Âã»Ø1
+O
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8‹…™ñ×1
