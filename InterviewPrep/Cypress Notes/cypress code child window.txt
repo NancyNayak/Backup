@@ -1,0 +1,412 @@
+Cypress -Modern Automation Testing from Scratch + Frameworks
+Course image
+35. code download
+Course content
+Play
+28. How to verify and automate check boxes with Cypress
+17min
+Play
+29. Handling static dropdowns using select command with Cypress
+7min
+Play
+30. Handling Dynamic dropdowns with each command Iteration
+12min
+Play
+31. Handling Visible and invisible elements using Assertions in Cypress
+10min
+Start
+32. Code download
+1min
+Start
+Quiz 5: Quiz-Check your knowledge
+Play
+33. How Cypress auto handles Alerts in web Apps
+20min
+Play
+34. Handling Child tab with combination of Cypress & Jquery commands
+18min
+Start
+35. code download
+1min
+Start
+Assignment 1: Child Windows Assignment
+Play
+36. Handling Web tables with Cypress using each command
+22min
+Start
+37. code download
+1min
+Play
+38. Handling Mouse hover popus using Cypress
+14min
+Start
+Quiz 6: Quiz-Check your knowledge
+Play
+39. Handling Frames with Cypress using real time example
+15min
+Start
+40. code download
+1min
+Start
+41. Cypress Concepts Cheat Sheet download
+1min
+Start
+Quiz 7: Quiz-Check your knowledge
+Play
+42. Agenda of framework topics and starting with test building
+15min
+Start
+43. Where to find code files for all framework topics?
+1min
+Play
+44. Understand how fixtures work in driving data
+10min
+Play
+45. Validating attribute properties and their behaviour with cypress assertions
+10min
+Play
+46. Building customized Cypress commands for reusing the code
+14min
+Start
+Quiz 8: Quiz-Check your knowledge
+Play
+91. How to read excel files through Cypress with available Plugins
+16min
+Play
+92. What are Cypress Tasks and Execute tasks into Tests with necessary plugins
+19min
+Play
+93. importance of cy.readFile to verify the Excel data and its valid assertions
+6min
+
+Rahul
+posted an announcement · 9 months ago · 
+QA Talk with Rahul Shetty - This Saturday
+Hi Buddy,
+
+It’s time for Chat again. I am conducting QA Talk to Interact and chat with all my students across the globe from my YouTube channel. I will go over as usual many important Updates on Test Automation Market along with useful tips and suggestions to drive your QA career best.
+And also, we shall have an interactive chat at the end where I will try to answer most of your questions in LIVE.
+
+**************************************************
+Where –
+https://youtube.com/live/BFWGqxpiPrM
+Rahul Shetty Academy YouTube Channel
+
+When –
+
+April 1st 9pm Indian time IST (Saturday)
+
+**************************************************
+
+Agenda of Discussion –
+
+• Recession Vibes- How to be well prepared to stand top on Job market?
+
+• What’s New/trending on Test Automation Side in 2023?
+
+• What is Chat GPT? How QA can take advantage from this to make their life easy.
+
+• Tips for QA Resume Shortlisting.
+
+• Live/Chat Session – Ask anything about QA….
+
+
+
+Get Ready and come prepared with all your questions. It could be technical or anything about your Tech Journey! And I will give my best to answer most of them
+
+It’s been long time we had a chat and I could not stop my excitement to interact with you all!
+
+See you on Saturday at below link. Don’t forget to Set reminder in your Mobile 10 minutes before so that you can be on time to attend this Session
+https://youtube.com/live/BFWGqxpiPrM
+
+
+
+Thanks
+
+Rahul Shetty - QA Trainer/entrepreneur
+
+Website : https://rahulshettyacademy.com/
+LinkedIn : https://www.linkedin.com/in/rahul-shetty-trainer/
+
+Youtube : https://www.youtube.com/c/RahulShettyAcademy
+
+Telegram Group for Interview Prep
+https://t.me/rahulshettyacademy
+
+MK
+Enter your comment:
+Enter your comment
+
+Rahul
+posted an announcement · 9 months ago · 
+Cypress Video Updates
+Hi Bud,
+
+Hope you are doing great. Just want to give you heads up on updates I pushed recently to the Cypress Course. Please find them below.
+
+
+
+1. Cypress Cucumber Section videos are updated based on recent Cucumber Badebal Plugin and Cypress new Folder hierarchy. Refer Section 14 for same.
+
+2. Cypress DB Testing videos are updated as per latest Cypress version folder hierarchy. Refer Section 18 for same.
+
+3.  Attached Updated Code repo for download with latest Cypress libraries in Section 19 to download.
+
+
+
+What Next?
+I am planning  to design few coding exercises for solving assignments on Core topics of Cypress. Will push this update in the month of April.
+
+
+
+Also, I have created a thread in QA where you can post a comment with your suggestions if you feel any videos are not clear/outdated in the course. Below is Screenshot on where you can find the thread
+
+
+
+
+
+
+
+
+Thankyou and See you Soon with next set of Updates.
+
+
+
+
+
+PS: *** Please show us your support by rating our course with your learning experience, It really gives me lot of encouragement and boosts us to create more and more exciting stuff. We really need your help, so that we can help you better with your automation needs.
+
+
+
+Thanks
+Rahul Shetty
+https://www.linkedin.com/in/rahul-shetty-trainer/
+
+
+
+
+
+MK
+Enter your comment:
+Enter your comment
+
+Rahul
+posted an announcement · 1 year ago · 
+Latest Updates on QA Space
+Hello Friends!
+
+Happy Holidays and a warm welcome to all the New Students who Joined my tutorials in this Black Friday sale. I assure you a top-class learning experience in all my QA Automation Courses with detailed explanations.
+
+On side note, here are quick updates I want to share about new innovations which are trending in QA Space related to the courses you enrolled.
+
+1. There is latest IDE editor in the market called “AQUA” which is exclusively developed for Automation testers especially for Selenium testers. This tool have many features which makes our lives easy such as Inspecting WebElements of Web Pages with in IDE, Validating CSS,Xpath inside IDE with out even switching to browser to grab elements. Please check out below 15min video about full details about this IDE and its features
+
+https://youtu.be/OdVO-jqUH0M
+
+2. From Selenium V 4.6.0 , There is no need to set below step to invoke browsers.
+
+System.setProperty(“webdriver.chrome.driver”, “/path/to/chromedriver”)
+
+Selenium team pushed new inbuilt package called Selenium Manager which automatically detects your browser version and download respective driver.exe and set it in system path. Please see below video for complete info on this
+
+https://youtu.be/KIn6we9rNh0
+
+That’s it for now. See you again in January with more updates on new lectures/topics which are being added in the courses.
+
+
+
+Hope you guys will have a wonderful rest of the Year.
+
+
+
+Thanks
+
+Rahul Shetty - QA Trainer/entrepreneur
+Website : https://rahulshettyacademy.com/
+LinkedIn : https://www.linkedin.com/in/rahul-shetty-trainer/
+Youtube : https://www.youtube.com/c/RahulShettyAcademy
+Telegram Group for Interview Prep
+https://t.me/rahulshettyacademy
+
+
+
+MK
+Enter your comment:
+Enter your comment
+
+Rahul
+posted an announcement · 1 year ago · 
+QA Live Webinar - Rahul Shetty
+Hi Buddy,
+
+It’s time for Chat again. I am conducting QA LIVE Webinar to Interact and chat with all my students across the globe from my YouTube channel. I will go over as usual many important Updates on Test Automation Market along with useful tips and suggestions to drive your QA career best.
+And also, we shall have an interactive chat at the end where I will try to answer most of your questions in LIVE.
+
+**********************************************************************************
+Where –
+https://youtu.be/UpG_SBTt3G0
+Rahul Shetty Academy YouTube Channel
+
+When –
+
+October 15th 9:30pm Indian time IST
+
+**********************************************************************************
+
+
+
+Agenda of Discussion –
+
+
+
+Trending Automation Courses in 2022 Q3.
+
+• Sample LIVE Practice Web/API Applications for Automation to Rahul Shetty Students
+
+• QA Interview Preparation Strategy - Follow these 4 steps
+
+• How should you set your tone/Body language to impress Interview Panel?
+
+• Java/Python/JavaScript – Which one to choose to get quick job in Automation Space?
+
+• What are the items I have to consider for my next Job move?
+
+• If I am beginner, should I start with Selenium or Cypress/Playwright?
+
+• Review of new Courses released in last quarter from Rahul Shetty. Why should you consider them?
+
+• Live/Chat Session – Ask anything about QA….
+
+
+
+Get Ready and come prepared with all your questions. It could be technical or anything about your Tech Journey! And I will give my best to answer most of them
+
+It’s been long time we had a chat and I could not stop my excitement to interact with you all!
+
+See you on Saturday at below link. Don’t forget to Set reminder in your Mobile 10 minutes before so that you can be on time to attend this Session
+https://youtu.be/UpG_SBTt3G0
+
+
+
+Thanks
+
+Rahul Shetty - QA Trainer/entrepreneur
+
+Website : https://rahulshettyacademy.com/
+LinkedIn : https://www.linkedin.com/in/rahul-shetty-trainer/
+
+Youtube : https://www.youtube.com/c/RahulShettyAcademy
+
+FB QA Group : https://www.facebook.com/groups/RahulShettyAcademy/
+
+Telegram Group for Interview Prep
+https://t.me/rahulshettyacademy
+
+MK
+Enter your comment:
+Enter your comment
+
+Rahul
+posted an announcement · 1 year ago · 
+Youtube Live Chat Session with Rahul Shetty
+Hi Buddy,
+
+It's time to say Hello to your Trainer again!! I am conducting QA LIVE Webinar to Interact and chat with all my students across the globe from my YouTube channel. I will go over many important Updates on UI Test Automation tools and their benefits along with useful tips/suggestions to drive your QA career best in 2022.
+
+
+And also, we shall have an interactive chat where I will try my best to answer most of your questions in LIVE.
+
+***************************
+When: Saturday March 19th 9:30pm IST / 9am PST
+Where: https://youtu.be/1GEyzNPLVj0
+(Rahul Shetty Academy Youtube channel)
+*****************************
+
+Agenda of Discussion -
+
+· Playwright vs Selenium vs Cypress –Future of UI Automation
+
+· No More Language Specific Automation roles –
+
+Java vs JavaScript vs Python vs C#
+
+· Toxic Work Culture? How to Move on smartly
+
+· How to have work life balance with daily Learning? Tips what you should follow
+
+· Doubts Clearing Session / Chat with Rahul Shetty
+
+
+
+Get Ready and come prepared with all your questions. It could be technical or anything about your Tech Journey! And I will give my best to answer most of them
+
+See you on Saturday at below link. Don’t forget to Set reminder in your Mobile 10 minutes before so that you can be on time to attend this Session
+
+https://youtu.be/1GEyzNPLVj0
+
+Thanks
+Rahul Shetty
+
+MK
+Enter your comment:
+Enter your comment
+Teach the world online
+Create an online video course, reach students across the globe, and earn money
+Top companies choose Udemy Business to build in-demand career skills.
+NasdaqVolkswagenBoxNetAppEventbrite
+Udemy Business
+Teach on Udemy
+Get the app
+About us
+Contact us
+Careers
+Blog
+Help and Support
+Affiliate
+Investors
+Terms
+Privacy policy
+Sitemap
+Accessibility statement
+© 2023 Udemy, Inc.
+35. code download
+code download
+describe('Handling Child Windows', () => {
+    it('Should handle child window', () => {
+      
+        cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
+ 
+       cy.get("#opentab").invoke('removeAttr','target').click();
+ 
+       cy.origin("https://www.qaclickacademy.com",()=>
+       {
+        cy.get("#navbarSupportedContent a[href*='about']").click();
+        cy.get(".mt-50 h2").should('contain','QAClick Academy');
+ 
+       })
+ 
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    });
+ 
+});
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  

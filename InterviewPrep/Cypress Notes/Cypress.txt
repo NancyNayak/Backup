@@ -1,0 +1,309 @@
+What is Cypress?
+
+· Cypress is a next generation front end Automation testing tool built for the modern web applications
+
+How Cypress is Unique from other Automation tools?
+
+Cypress automatically waits for commands and assertions before moving on. No more async hell.
+
+Ability to test Edge Testcases by Mocking the server response
+
+Cypress takes snapshots as your tests run. We can hover over each commands in the Command Log to see exactly what happened at each step.
+
+Because of its Architectural design, Cypress delivers fast, consistent and reliable test execution compared to other Automation tools
+
+View videos of your entire tests execution when run from the Cypress Dashboard.
+
+*******************************************************************************************
+
+Cypress built on Node.js and comes packaged as an npm module,
+
+As it is built on Node.js, It uses JavaScript for writing tests. But 90% of coding can be done using Cypress inbuilt commands which are easy to understand.
+
+Cypress also bundles with jQuery and inherits many of jQuery methods for UI components Identification
+
+Cypress Architecture
+
+Most testing tools (like Selenium) operate by running outside of the browser and executing remote commands across the network. But Cypress engine directly operates inside the browser. In other words, It is the browser that is executing your test code
+
+This enables Cypress to listen and modify the browser behavior at run time by manipulating DOM and altering Network requests and responses on the fly
+
+Cypress open doors to New Kind of testing with Having ultimate control over your application (front and back)
+
+
+
+Cypress Browser Support:
+
+
+Chrome
+Electron
+Firefox & IE
+
+Cypress Components:
+
+Test Runner
+Dash Board Service
+
+------------------------------------------
+
+ Commnad to create package.json
+ npm -i init
+ 
+ Commnad to install cypress
+ npm install cypress --save --dev
+ (--save --dev) will add cypress entry in package .json
+ 
+ 
+ Command to open test runner
+ npx cypress open
+ npx  - will opene cypress at global level
+ 
+ -----------------------------------------------------------
+ 
+ In Visual studion automatically cypress.config.js file created
+ Folder cypress will be created with 3 sub folder-downloads,fixtures,support.
+ 
+ In cycpress testfile(which will be .js file) called as spec
+ 
+ test file path need to be added in cypress.config.js like this specPattern: 'cypress/integration/examples/*.js'
+ 
+
+ 
+ - Mocha nd jasmine are testing framework just like testng and  jUNIT
+ cypress usses MOCHA
+ -----------------------------------
+ 
+ How we can run the spect file
+  1.by just click on test file on Test runner
+  2. By  command line--  from command line cypress by default choose electron as a browser in headleass mode(it will not open browser)
+  
+  Commmands:
+  npx cypress run -- headed- it will run in electron browser
+  npx cypress run --browser edge- it will run in edge browser
+  
+  
+  
+  ------------------------
+  Folders:
+  Fixtures- For testdata
+  plugin- for list
+  Sopprt- Common methods
+  integration- to write test
+  cypress.config.js-This is config fle for framwork
+  package.json- all depencies are mentioned here
+  
+  --------------------------------
+  CSS support CSS selectors as locators.
+  id- #id
+  classname-.classname
+  tagname.classname (Tagname is optional)
+  tagname[type='search']- Customized CSS with any attribute(type is attribute here)
+  tagnames we will use space in between tagnems- eg= form input
+  we can use tagname also in css
+  
+  Chropath extentention we can use to verify CSS selector
+  
+  wrap method is used for elment in each method as click metod cannot be directly applied on find
+  
+  ------------------
+  Asynchronus concept
+  java script is asynchronus but in cypress they have in built function to have sequence execution. cypress take care of it.
+  promise  is state of execution.
+  Promise comes with 3 stage rejection, resolved , pending
+  Cypress uses then method to resolve this
+  
+  
+  text is not cypress command
+  Non cypress command can not resolve promises
+  cypress also support jquery objects.
+  text is jquery method
+  if "find" method resolves, then we can use test method
+  
+as- alias methd is act as locator variable
+aliasing to reuse locaters
+
+console.log- logs in dev tool browser console log- it is not related to cypress. we have have to manuualy handle sequence using then method.
+cy. log-it will take care of sequence- as its cypress command. It will print in test rUNNER WINDOW
+
+should (asser function)belong to chai library.
+
+ ---------------
+ How to handle check box and radiobutton
+ 
+check and uncheck method is used to  check and uncheck the box
+In assertion inside should method -be is used to check the behaviour of checkbox
+
+------------how to handle static dropdown----------------------
+using select methods
+
+---------------------how to handle dynamic dropdown--------------------
+using each method by iterating over elements
+--------------------------------------------------------------
+be. visible is used to check the visbility of element
+not.be. visible is used to check the unvisbility of element
+---------------alert------------
+cypress automatically handle popup
+cypress also has capabilty to listen brower event and (on) method is used to fire an event
+window:alert is a event
+
+------------------ how to handle child window------
+cypress cannot handle child window itselef
+using jquery we can handle
+In jquery when target="_blank" it will open child window
+so we will using invoke command to remove target attribute , so that child window will open in parent window itself
+
+----------Web table-----------
+nth-child()- this is used in css
+next method is used to traverse to child and it works only with get
+----------mouse hover-------------
+2 ways:
+
+Cypress does not support mouse over events .
+Using jqery method we can handle
+show method is used to show hide element
+
+Cypress can also  click on invisisble elemnet by using click ({force:true})
+
+----------------------------iframe---------------------
+for iframe 1 plugin need to indtalled using below command
+npm install -D cypress-iframe
+after installing we have to import  cypress-iframe package
+frameloader methid is used to load the frame
+when have to any action on iframe the we have use ti method iframe()
+
+ ---------------Cypress Framework----------------------------
+ Cypress hooks:
+ Before- It will run once before each block
+ After- It will after once before each block
+ Beforeeach- It will run before each it method
+ Aftereach-It will run after each it method
+ 
+ cy. pause and cy.debug is used to debug 
+ 
+ {force:true} is used inside click() for forcefull click.
+ We can convert string to number using  Number(String) method
+ 
+
+ when we do any change in config.js then we have to restart the test runner
+ 
+npx- npm will find automatically xypress
+if we have install cypress using cypres install--g() ie globally then we dont have to use npx
+
+------------Environment
+We can set the env using terminal also  so that  env value can override the code value
+We also giver username and password in env property
+and we can call using cypress.env('username)
+
+Whatevere project setting we override in config.js , they will also change in project setting in blue colour
+
+ Command to run from terminal using env :
+ npx cypress run --spec cypress\integration\examples\Test9Framework.js --headed --browser chrome --env url="https://rahulshettyacademy.com/"
+ 
+ 
+ -------------Cypress cloud-------------------
+  to use cypress we have to login in cypress
+  for cypress we have do 2 setting:
+  we have copy project id in cypress.config.js
+  we have to run the cypress in terminal  using commend cypress run --record --key <record-key>
+  
+  cypress cloud has many features:
+  Analytics-
+  Screenshot vedio
+  Retry the failure- we need to override retry property from project setting to config.js .
+  retries: {
+runMode: 0,
+},
+  -------------------------- jENKins intergration--------
+  In Package.json we can create scripts with our common terminal commands
+  download the jenkins.war file
+  
+  command to start jenkins server:
+  java -jar jenkins.war -httpPort=9090
+   
+   We we run in shell command- $ is used
+   We we run windows batch option in jenkins then % is used
+   
+   we cn parametrised the parameter by giving the scripts 
+
+
+Cucumber with cypress
+we have to install Cucumber packages fron badeball repo
+ command:npm install @badeball/cypress-cucumber-preprocessor
+
+Whenever we install any plugin , we have add them in config.js  inside setupNodeEvents method  so that it load all external plugin
+
+ 2 plugins need to be added:
+ browserify - to load the pluggin
+ CucumberPreprocessorPlugin
+ 
+ In config.js we have to addfeature fie extention in spec
+ anothe pluggin "Cucumber (Gherkin) Full Support" for Visual studio to understand given when then language need to be install
+ 
+ .feature name implamentation clas sname should be same as per cypress
+ In step defination we have to import Given when then packages from  CucumberPreprocessorPlugin pluggin
+ 
+ AdD BELOW Code:
+ In Config js:
+ const {
+  addCucumberPreprocessorPlugin,
+} = require("@badeball/cypress-cucumber-preprocessor");
+const {
+  preprocessor,
+} = require("@badeball/cypress-cucumber-preprocessor/browserify");
+
+async function setupNodeEvents(on, config) {
+  // This is required for the preprocessor to be able to generate JSON reports after each run, and more,
+  await addCucumberPreprocessorPlugin(on, config);
+
+  on("file:preprocessor", preprocessor(config));
+
+  // Make sure to return the config object as it might have been modified by the plugin.
+  return config;
+}
+
+Package.json:
+
+ "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "@cypress/browserify-preprocessor": "latest"
+  }
+
+
+stepdefination:
+
+ import { Then, Given,When } from "cypress-cucumber-preprocessor/steps";
+ npm i- to install dependencies mentioned in package.json
+ 
+ 
+ Parametrisation in cypress can be done by:
+ Fixtures 
+ using pipe oprator
+ name| sirname
+ 
+ We can also define tags in featurefile eg- Regression, Smoke
+ We can run using terminal npx cypress run --env tags="@Regression" --headed --broswer chrome
+ above command run only scenario with Regression tags
+ 
+ 
+ 
+------------------------- Cucumber HTML reports--------------
+Test Results- json -HTML
+First Test Results need to be converted into JSON FILE- cucumber json formatter
+One plugin need to be installed  to covert into json
+add below code in package.json
+"cypress-cucumber-preprocessor"{
+"json":{
+"enabled":true
+"output": path where we need to keep results
+}
+},
+
+After test convert into json , it need to convert in htm, for that package need to installed
+multiple cucumber html report
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+data type 
+let, var, const
+
+Array:
+methods in array:
+push -to add element in the end of array
+pop -to delete element in the end of array
+unshift -to add element in the start of array
+indrxof- to check the index of element
+includes- element is present in the array or not.
+slice(start index, excluded index that we want )- we will get sub array
+
+reduce function-
+filter function
+map function
+
+
+
+sorting of array with string:
+using sort method
+reverse method for descending ording
+
+sorting of array with string:
+ custom logic
+ sort(a,b->a-b)
+ 
+ --------------------------------------------
+ difference btw let var and const:
+ var- global level/ functional level
+ let is introduced in E6
+ let- global level/Block level{}
+ Var can be redeclared and let can not be redeclared
+ let and var can be relinitialized
+ Const can not be reinitialized
+ 
+ -------------------------
+ 
+ Strings
+ slice
+ trim
+ split
+ parseint- string into numbers
+ toString- number to string
+ 
+ 
+ Objects in java script
+ Classes in java script- it introduced in E6
+ 
+ 
+ moduel.export- to export bject in different file
+ require- usedb to import the class
+ inheritence
+ super, this, constructor all are like java
+ 
+ 

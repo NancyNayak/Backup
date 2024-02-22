@@ -1,0 +1,167 @@
+Depencies that need to be imported fOR restassured:
+ Restassured
+ json
+ Gson
+ scema validator
+ Jackson
+ jsonPath
+ 
+Restassured sopport BDD style.
+given()- cintent-type, set cookies, add auth, add param, set headers info
+when()- put, post, delete, get
+then()- validate status code, extract response, rxtract headers cookies, response body.
+
+given method includes when and then
+
+ structure is
+ given()
+ .when()
+ .then()
+ we can also write like
+  when()
+ .then()
+ 
+ Whatever first method we wil use we will not put . in first method
+
+
+For Restassured to identifu BDD keywords, static packages need to be imported.
+
+1. 3 static pcakages:
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+ import static org.hamcrest.Matchers.*;
+ 
+ 
+
+2. Query and pathparameter
+
+3. How to check cookies and headers from response- get cookies and getgeaders methods ae there.
+
+4 ways to pass pay load in req:
+1. usimg hashMap
+2. using  org.json library- by JSONObject
+3. POJO CLASS 
+4. using json file -
+
+
+5.Response have- Body, Headers, Cookies
+
+6. log().all() 	- for log all response
+    log(). cookies- for log cookies
+	log(). header- for log headers
+	
+	
+	
+7 Valitade response body: xml and json
+we need dependency  jsonPath for validating json response.
+ We have different approch to validate json response:
+ -using json path eg- Book[3].Titte
+ -using testng Assert
+ 
+ 8-Parsing data into json - we can pasrse data using JSON oBject class
+  JSONObject JO =new JSONObject(rs.asString());
+  JO.getJSONArray.getJSON OBject 
+ 9 For XML parsing we use XmlPATH class
+  XmlPATH XmlObj= new XmlATH(rs.asString());
+  XmLObj.getList() 
+ 
+ 
+asString- To convert entire response into string
+toString()- To convert the data of xml
+
+getList method is used for XmlPATH
+ 	
+
+
+-If we return the response in any variable then we can we can verify the response in when() section only with JSONObject class for JSON and XMLPath class for xml
+if we have to verify the resppnse without storing variable then we can very in then() section using Body( jspnpath/xmlpath,"expected value") method
+
+-------------------------------------------------------------
+File upload and download 
+
+Upload:
+In postman we send file in body- Form-data. In key we can choose file and in value we can chhose test1
+
+In Restassured:
+we use 
+// single file
+ File myfile= new File();
+  given().
+  multipart("file","myFile"); // multipart is used for form-data type.
+  .contentType("multipart/formdata")
+  
+  
+  // multiple file
+ File myfile1= new File
+  File myfile2= new File();
+
+  given().
+  multipart("files","myFile1"); // We have to write multipart multiple times in case of multiple file.
+    multipart("files","myFile2"); //  
+  .contentType("multipart/formdata")
+  
+  
+  Dowload:
+	using get method  where we provide filename in URL of get method (here content of file will the be the response)and  verify status code as 200 and body
+--------------------------------------------------------------------
+	 json/XML SCHEMA validation
+	 
+	 Response Validation- data validattion
+	 Schema Validation- Type of data validation
+	 
+	 We can create one file json scheme under resorces folder 
+	 JSON Schema Validation Can be done by using JsonSchemaValidator.matchesJsonSchemaInClasspath("filename.json")
+	 JsonSchemaValidator is class 
+	 
+	 Soap api gives xml response
+	 Postman does not support xml schema validation
+	 using java scriptwe  can validate xml schema validation
+	 
+	 Using Restassured we can validate xml schema validation
+	 
+	 From JSON Response we can create JSONschema which is in json format
+	 	 From XML Response we can create XMLschema which is in (.xsd) format-
+		 xsd is XML schema format
+		 
+		 Now a days nobody use xml
+		 
+		 XML schema can be verified by using Restassuredmatcher.matchesXSDinclasspath("filename.xsd"  )
+		 
+		 
+		 JSon schema coverter we used to convert json response to scheme
+		 		 XML to xsd  coverter we used to convert xml response to xmlschema
+-----------------------------------------------------------------------------------------------------------------------------
+Serilaization and Deserilaization- Its internal process in RestAssured
+
+Seriallization- POJO to JSON (Java object is haveay and non secure that why we convert java object to json)
+This is internal programing conept, Restssured automatically take cares.
+In the network data navigates in th e form of json
+
+Deserialization- JSON to POJO
+
+
+jackson databind library is used for serialization and deserilaization- its programming concept
+ObjectMapper class is used for this which is under jacson databind library
+
+
+POJO---->JSON Serialization:
+ObjectMapper objMapper =new ObjectMapper();
+String jsonData=objMapper.writerWithDaefaultPrettyPrinter().writeValueAsString(Pojo object);(This will convert into string as json format)
+
+
+Why we convert  javaobject into json--> because json is light object
+
+JSON--------->POJO Deserialization:-
+
+ObjectMapper objMapper =new ObjectMapper();
+Student stupojo=ObjectMapper.readvalue("JSONDATA",Student.class);-readvalued will convert jason into student class object
+stupojo.getName()----using getter we can have get details
+
+
+
+--------------Authentication/aUTHORIZATION
+Authentication- user is valid or not
+Authorization- permission
+
+				 

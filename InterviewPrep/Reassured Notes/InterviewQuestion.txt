@@ -1,0 +1,128 @@
+1. Restassured code
+2.jspnPath
+3. how we can verify the resonse body json
+4. serialization and deriserilization
+5. programm how to sort HASMAp  on basis of keys
+6.xpath find of table
+7. Final keyword
+8. factorial Recurssive function
+9. program-add number of digit untill single digit
+10. program-second hight num in array
+11. pattern programm
+12 Dynamic table xpath 
+13 throw and throws difference
+14 401 and 403 error code difference
+15 can we overload main method
+16 static
+17try cath output program
+18 static output program
+19 inheritence output program
+20 Json parsing 
+21 how to read escel in selenium
+22 how to handle webtable in selenium
+23. xpath for dynamic table
+24 Overriding rule of specifiers
+25 authorization and authentication
+26 Different type of authentication
+27 hooks in cucumber
+28 how to  rerun failed TC in selenium
+29 Pagefactory
+30 pageobject model
+31 Testngs parameters Question
+32 TestNg  anotation
+33 Dataprovider
+34 Selenium code- screenshot, Fluent and explicit wait
+35 Javascript executer code for reading writing text and scrolling
+36 selenium architecture
+37 selenium 4 features
+38 design pattern- singleton
+39 xpath frpm amazon website or makemytrip
+40- OOps concept used in selenium- customized  and selenium example
+41- which locater is faster- css as it move in forward dierection only
+42 How we can navigate to 3rd window using selenium- Set of window need to be convert in list
+43. can we find the xpath of last 3d element we use
+44 Head method in restapi- head returns the response header intsteand of header
+45 Puth and path difference
+46 why we use headers in API
+46 300 http code- REdirectional
+47- Option method 
+48 find xpath of shadow DOM- Download option of chrom-> find xpath of search text box of Downloads
+49 How to pass multiple headers in Restassured- environ
+50. In framework environments are taking care with TestNg
+51. Can we run Selenium class without TestNG- yes using main, BDD, Junit
+52 Xpath of flipkart mouse over element- Flipkart Fashion option- Press F8 to make screen freeze and find the xparh
+54- Watsapp Test Cases
+55- Amazon Testcases
+56 priority and severity
+57 String == and equals() output program----==( Object (no value)), equals()- value
+58- String Memory concept
+59 Static Memory concept- one copy only
+60 Exception hirechy
+61- all http code- from 100 to 500 series
+67-eg of request URL in API-https://www.google.com/Images/1123343
+68 Regular expression for smoke method in  testng xml- ".*smoke.*"
+69- File uplpad download in selenium
+70- Can we find xpath in IE
+71- Agile ceremonies, Estimation
+72- Upload and download of file in sleenium
+73 Challanges you faced in automation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Java Prgrams:
+1.
+G
+GL
+GLO
+GLOB
+GLOBA
+GLOBANT
+Print this.
+
+2. Sum of digit of number untill we get single digit
+3. reverse of string
+4.Ocurence of each character in string
+5.remove the duplicate charcter in string
+6 Revers of words in string
+7 Count of words from string of words
+8 factorial
+9 Second largest number in array
+10 largest no in array
+11 Count of alphabet from string of character and number
+12 palindrome
+13 pattern program 
+14{({})}- check tha balancing
+15 print String s="aabbbccccaaaaa";
+  output //a7b3c4
+16- to find pairs of value in array that is equals to target sum.
+
+
+28
+2678
+2827542
+
+thout 
+basic:2544990+127250(bonus)26722401+106890(company)+42858(gratututy)=2821987 joinin 50k+50 relocation
+
+255440+bonus 127500+2677500+pf(107100)+42942+company 150042-28
+
+
+
+
+
+
+
+
