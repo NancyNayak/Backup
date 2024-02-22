@@ -1,0 +1,15 @@
+
+T
+java:S1197	"8Move the array designator from the variable to the type.(Œ©Ía8‘»¬îÍ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÝÄ¾¬8‰à´îÍ1
+X	java:S1256"<This block of commented-out lines of code should be removed.(âÁøš8øéÄÐÎ1
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(°Îò§þÿÿÿÿ8·È•ÑÎ1
+]	java:S125%"<This block of commented-out lines of code should be removed.(œîÆÉúÿÿÿÿ8È³‰ÑÎ1
+U
+java:S1197"8Move the array designator from the variable to the type.(†ì8Ÿ•¬îÍ1
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(èºû–ÿÿÿÿÿ8·È•ÑÎ1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(æš¬ç8•à™îÍ1
+W	java:S125)"<This block of commented-out lines of code should be removed.(ÁòŽ8ÛŸ‰ÑÎ1
+Y
+java:S3655("7Call "Optional#isPresent()" before accessing the value.(ÔƒÍƒþÿÿÿÿ8ûã…ÑÎ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(àÁšüÿÿÿÿ8¢Ç°îÍ1

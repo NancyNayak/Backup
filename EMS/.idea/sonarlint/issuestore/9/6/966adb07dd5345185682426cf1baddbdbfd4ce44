@@ -1,0 +1,11 @@
+
+U	java:S106("9Replace this use of System.out or System.err by a logger.(®…ŠÕ8Ñª²¨Ø1
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(‰­šÜ8Ñª²¨Ø1
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(‡–úÿÿÿÿ8Ñª²¨Ø1
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ºò—Ÿûÿÿÿÿ8Ñª²¨Ø1
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(½ç¥Ñıÿÿÿÿ8Ñª²¨Ø1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ÄÏ¨äüÿÿÿÿ8Ñª²¨Ø1
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(Ùâì„8Ñª²¨Ø1
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(Ğ“Ê¼ùÿÿÿÿ8Ñª²¨Ø1
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8¢ÛúØ1

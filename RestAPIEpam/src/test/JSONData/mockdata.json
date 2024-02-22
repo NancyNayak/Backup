@@ -1,0 +1,48 @@
+{
+  "data": {
+    "spendTrackerTrends": {
+      "yearlySpendData": [
+        {
+          "year": "2024",
+          "yearlyTotalSpend": "1119.01",
+          "yearlySpendAverage": "1089.02"
+        }
+      ],
+      "yearlySpendDataByCategory": [
+        {
+          "yearlySpendData": [
+            {
+              "year": "2024",
+              "yearlyTotalSpend": "24.62",
+              "yearlySpendAverage": "24.62"
+            }
+          ],
+          "categoryName": "Doctor",
+          "categoryGuid": "CAT-db6391b3-c218-fbe5-e496-139dca993645"
+        },
+        {
+          "yearlySpendData": [
+            {
+              "year": "2024",
+              "yearlyTotalSpend": "55.26",
+              "yearlySpendAverage": "55.26"
+            }
+          ],
+          "categoryName": "Bills & Utilities",
+          "categoryGuid": "CAT-79b02f2f-2adc-88f0-ac2b-4e71ead9cfc8"
+        },
+        {
+          "yearlySpendData": [
+            {
+              "year": "2024",
+              "yearlyTotalSpend": "-5.55",
+              "yearlySpendAverage": "-5.55"
+            }
+          ],
+          "categoryName": "Arts",
+          "categoryGuid": "CAT-967a9441-5694-9419-6b40-67f15cd55fe4"
+        }
+      ]
+    }
+  }
+}

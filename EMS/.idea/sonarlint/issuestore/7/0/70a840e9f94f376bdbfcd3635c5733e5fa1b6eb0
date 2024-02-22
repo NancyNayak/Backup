@@ -1,0 +1,13 @@
+
+[
+java:S1128"9Remove this unused import 'com.ems.db.document.Employee'.(í”óüÿÿÿÿ8´ã‹§Ø1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8­«ÜúØ1
+g
+java:S1128"ERemove this unused import 'com.ems.db.controller.EmployeeController'.(ÖíÏıÿÿÿÿ8­«ÜúØ1
+
+java:S1128	"dRemove this unused import 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'.(¦–·Ë8áÉü«×1
+ 
+java:S1130"~Remove the declaration of thrown exception 'org.json.simple.parser.ParseException', as it cannot be thrown from method's body.( äöÛùÿÿÿÿ8¿ŞÜúØ1
+
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.( äöÛùÿÿÿÿ8¿ŞÜúØ1
